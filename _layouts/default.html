@@ -19,9 +19,8 @@
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
-          <a id="return_banner" href="https://shosem.github.io/team-development-docs/">TOP</a>
-
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+        
+          <h1 id="project_title"><a id="return_link" href="https://shosem.github.io/team-development-docs/">{{ site.title | default: site.github.repository_name }}</a></h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
